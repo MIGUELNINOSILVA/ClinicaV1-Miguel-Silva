@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "44c2d52a-28d2-463e-a602-fe4091a7782f",
+		"name": "BACKEND CLINICA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27129339"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET PACIENTES ALFABETICAMENTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio1"
+					]
+				},
+				"description": "Obtener todos los pacientes de manera alfabética"
+			},
+			"response": []
+		},
+		{
+			"name": "GET CITAS FECHA ESPECIFICO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio2"
+					]
+				},
+				"description": "Obtener las citas de una fecha en específico , donde se ordene los pacientes de manera alfabética."
+			},
+			"response": []
+		},
+		{
+			"name": "GET MEDICOS CON ESPECIALIDAD ESPECIFICO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio3"
+					]
+				},
+				"description": ".Obtener todos los médicos de una especialidad en específico (por ejemplo, ‘Cardiología’)."
+			},
+			"response": []
+		},
+		{
+			"name": "GET ENCONTRAR CITA PARA PACIENTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET PACIENTES CON MEDICO EN ESPECIFICO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/clinica/ejercicio5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"clinica",
+						"ejercicio5"
+					]
+				},
+				"description": "Encontrar todos los pacientes que tienen citas con un médico en específico (por ejemplo, el médico con med_numMatriculaProfesional 1)."
+			},
+			"response": []
+		}
+	]
+}
