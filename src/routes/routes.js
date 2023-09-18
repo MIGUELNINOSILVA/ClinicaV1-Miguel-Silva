@@ -242,7 +242,7 @@ routes.get('/ejercicio5', async (req, res) => {
     
 
     res.json({
-      description: "Encontrar todos los pacientes que tienen citas con un médico en específico.",
+      description: "Encontrar tod  os los pacientes que tienen citas con un médico en específico.",
       lengthResults: result.length,
       results: result,
     });
